@@ -1,0 +1,12 @@
+{
+  "name": "selectorize",
+  "description": "Autotracking memoization for Immutable data",
+  "version": "0.0.1",
+  "author": "Ryan Carniato",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryansolid/selectorize"
+  },
+  "main": "index.js"
+}
