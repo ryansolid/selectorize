@@ -61,4 +61,4 @@ Selectors can also be nested. Again due to the properties of immutability things
 
 This is not much more than a gist currently. Still needs to benchmark to see if the performance completely invalidates the usefulness.
 
-While applicable to redux and the like, what influenced this library was the thought that similar techniques could be used to auto memoize render trees in a way similar to fine grained change detection libraries for non-fine grained immutable approaches as an alternative to techniques used by virtual dom libraries.
+While applicable to redux and the like, what influenced this library was the thought that this technique could be used to auto memoize render trees in a way similar to fine grained change detection libraries for non-fine grained immutable approaches as an alternative to techniques used by virtual dom libraries and without the creation/teardown overhead of subscriptions.
