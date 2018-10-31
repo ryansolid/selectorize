@@ -26,7 +26,7 @@ export function selectorize(fn) {
     }
     if (!changed) return prevValue;
     const args = [];
-    for (i = 0; i < arguments.length; i += 1) {
+    for (let i = 0; i < arguments.length; i += 1) {
     	if (arguments[i] instanceof Object) {
     		args.push(new Proxy(arguments[i], createHandler(i)));
       	caches[i] = {}
